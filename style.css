@@ -1,50 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>What is Comcast Email?</title>
-    <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-    <header>
-        <h1>What is Comcast Email?</h1>
-    </header>
+body {
+    background-color: #f4f6f9;
+    color: #333;
+    line-height: 1.6;
+}
 
-    <section class="content">
-        <p>
-            Comcast Email is an email service provided by Comcast through its Xfinity brand.
-            It allows users to send, receive, and manage emails securely using an Xfinity account.
-        </p>
+header {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
 
-        <h2>Key Features of Comcast Email</h2>
-        <ul>
-            <li>Secure webmail access via Xfinity</li>
-            <li>Spam and virus protection</li>
-            <li>Large storage capacity</li>
-            <li>Access on desktop and mobile devices</li>
-            <li>Email organization tools and filters</li>
-        </ul>
+.content {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
 
-        <h2>How to Access Comcast Email</h2>
-        <p>
-            Users can access Comcast Email by visiting the official Xfinity website
-            and signing in with their Comcast credentials. It can also be configured
-            with third-party email applications using IMAP or POP settings.
-        </p>
+.content h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #003366;
+}
 
-        <h2>Who Can Use Comcast Email?</h2>
-        <p>
-            Comcast Email is available to Xfinity Internet customers.
-            Active subscribers can create and manage multiple email accounts
-            under their primary account.
-        </p>
-    </section>
+.content p {
+    margin-bottom: 15px;
+}
 
-    <footer>
-        <p>&copy; 2026 Comcast Email Guide. All Rights Reserved.</p>
-    </footer>
+.content ul {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
 
-</body>
-</html>
+.content li {
+    margin-bottom: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #003366;
+    color: #fff;
+    margin-top: 40px;
+    font-size: 14px;
+}
